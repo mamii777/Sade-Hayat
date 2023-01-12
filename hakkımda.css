@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image: url(arkaplan.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.navbar{
+   display: flex;
+   width: 90%;
+   margin: auto;
+   padding: 32px 0;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0px 2px red;
+    transition: 1s;
+}
+
+.Logo{
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.navbar ul li{
+    list-style-type:none;
+    display: inline-block;
+    margin: 0 35px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    color: white;
+    text-align: center;
+}
+
+.content h1{
+    font-size: 65px;
+}
+
+.content p{
+    margin: 20px auto;
+}
+
+.banner p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #fff;
+}
+.sosyal{
+    position: absolute;
+    left: 90vh;
+    top: 90vh;
+    
+}
+.sosyal div {
+    display: inline;
+
+}
+.sosyal a{
+    display: inline-flex;
+    width: 35px;
+    height: 35px;
+    font-size: 35px; 
+    color: #fff;
+    margin: 0 10px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.sosyal a i{
+    transition: 0.5 all;
+}
+.sosyal a:hover >i{
+    transform: scale(1.6)   rotate(700deg) ;
+}
+@media(max-width:600px)
+{
+    .navbar{
+        padding: 15px 20px;
+    }
+    
+}
+
+@media(max-width:768px){
+    body{
+        background-image: url(arkaplan.jpg);
+    }
+
+    .navbar{
+        position: relative;
+        top: 40px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.5rem;
+        text-align: center;
+    }
+
+    .tanıtım{
+        margin-top: 180px;
+        font-size: 20px;
+    }
+    .content{
+        margin-top:-50px ;
+    }
+
+    .navbar .Logo{
+        height: 0;
+        width: 0;
+    }
+    .sosyal{
+        display: none;
+    }
+
+    
+    
+    
+}
