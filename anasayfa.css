@@ -97,14 +97,14 @@
     text-decoration: none;
     display: inline-block;
 }
-@media(max-width:600px)
+@media(max-width:500px)
 {
     .navbar{
         padding: 15px 20px;
     }
     
 }
-@media(max-width:768px){
+@media(max-width:600px){
     .navbar{
         position: relative;
         top: 40px;

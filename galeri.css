@@ -135,14 +135,14 @@ body{
     transform:scale(1.1)
     
 }
-@media (max-widht: 600px){
+@media (max-widht: 500px){
 
     .navbar{
         padding: 15px 20px;
     }
 
 }
-@media(max-width:768px){
+@media(max-width:600px){
     body{
         background-image: url(arkaplan.jpg);
 

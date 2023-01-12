@@ -92,7 +92,7 @@
 .sosyal a:hover >i{
     transform: scale(1.6)   rotate(700deg) ;
 }
-@media(max-width:600px)
+@media(max-width:500px)
 {
     .navbar{
         padding: 15px 20px;
@@ -100,7 +100,7 @@
     
 }
 
-@media(max-width:768px){
+@media(max-width:600px){
     body{
         background-image: url(arkaplan.jpg);
     }
